@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ```
 
-git init
+git init (turns green due to untracked files)
 
 dvc init
 
