@@ -24,7 +24,8 @@ def get_data(config_path):
     data_path = config["data_source"]["s3_source"]
     df = pd.read_csv(data_path, sep=",", encoding='utf-8')
     return df
-
+# test dvc repro
+# whenever anything changes, md file in dvc.lock changes
 
 if __name__== "__main__":
     args = argparse.ArgumentParser()
@@ -35,6 +36,7 @@ if __name__== "__main__":
 
 
 
+# after this make touch src/load_data.py
 
 
 
