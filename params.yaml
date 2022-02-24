@@ -1,7 +1,7 @@
 base:
-project: winequality-project
-random_state: 42
-target_col: TARGET
+  project: winequality-project
+  random_state: 42
+  target_col: TARGET
 
 
 data_source:
