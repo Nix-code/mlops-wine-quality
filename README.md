@@ -1,4 +1,4 @@
-MLOPS project
+To get started
 
 ```
 pip install virtualenv
@@ -17,7 +17,7 @@ source virtualenv/bin/activate
 touch requirements.txt 
 ```
 
-- dvc and dvc[gdrive]
+
 ### Install
 
 ```
@@ -25,9 +25,4 @@ pip install -r requirements.txt
 
 ```
 
-git init (turns green due to untracked files)
-
-dvc init
-
-dvc add data_given/winequality.csv
 
