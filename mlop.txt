@@ -1,0 +1,45 @@
+1. project architecture
+2. dvc data version control
+3. Git command
+4. Basic python
+
+
+DVC 
+
+helps to version or keep track of your ML model and data
+so if any changes made can be tracked
+
+Github has certain limitations
+
+we cannot push large file in it
+
+so dvc creates .dvc file, which keeps tracks about the info of 
+where actually our data is and data can be stored in remote storage s3 bucket
+
+
+
+2 components
+
+params.yaml
+
+parameters configuaration
+
+dvc.yaml
+all the stages
+(data gathering)
+(Data preprocessing)
+(Training)
+(evaluation)
+
+if the file is too big, 
+  we can specify the changes in params.yaml
+  to reduce buggy codes 
+
+store in centralized location
+
+ ymal, yet another markup language
+
+ p1:v1
+ p2:p2
+
+
