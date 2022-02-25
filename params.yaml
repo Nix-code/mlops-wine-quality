@@ -18,8 +18,11 @@ split_data:
 estimators:
   ElasticNet:
     params:
-      alpha: 0.88
-      l1_ratio: 0.89
+      # alpha: 0.88
+      # l1_ratio: 0.89
+      alpha: 0.9
+      l1_ratio: 0.4
+      # dvc metrics diff
 
 model_dir: saved_models
 
