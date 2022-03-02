@@ -26,3 +26,19 @@ pip install -r requirements.txt
 ```
 
 
+### TOx
+- Tox acts as the virtual environment for test cases
+```
+[tox]
+envlist = py38
+skipsdist = True
+
+[testenv]
+deps = -rrequirements.txt
+commands = 
+    pytest -v
+```
+
+run
+
+``` tox``` and ```pytest v ```
