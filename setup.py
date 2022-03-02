@@ -17,3 +17,6 @@ setup(
 # check by typing pip freeze
 # python3 
 # import src
+
+# make tar file dist
+# python setup.py sdist bdist_wheel
