@@ -61,10 +61,18 @@ def index():
         except Exception as e:
             print(e)
             error = {"error":"Something went wrong"}
-            return render_template("index.html")
+            error = {"error":e}
+
+            return render_template("error.html",error=error)
 
     else:
         return render_template('index.html')
 
 if __name__=="__main__":
     app.run(host="0.0.0.0",port=5000,debug=True)
+
+# Workflows. A workflow is a configurable automated process that will run one or more jobs. 
+# Workflows are defined by a YAML file checked in to your repository and will run when triggered by an event in your repository,
+#  or they can be triggered manually, or at a defined schedule.
+
+#mkdit .github/workflows
