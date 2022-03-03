@@ -5,3 +5,7 @@ pandas
 pytest
 tox
 flake8
+flask
+gunicorn
+# gunicorn is required when we deploy the model in the heroku
+ 
